@@ -1,0 +1,22 @@
+{
+  "mac_spoofing": {
+    "enabled": true,
+    "random_mac": true,
+    "vendor_prefix": "00:11:22"
+  },
+  "hostname_spoofing": {
+    "enabled": true,
+    "random_hostname": true,
+    "prefix": "device"
+  },
+  "log_cleaning": {
+    "enabled": true,
+    "clean_system_logs": true,
+    "clean_network_logs": true
+  },
+  "traffic_masking": {
+    "enabled": true,
+    "random_delays": true,
+    "max_delay": 5
+  }
+} 

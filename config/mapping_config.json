@@ -1,0 +1,21 @@
+{
+  "coordinate_collection": {
+    "enabled": true,
+    "gps_enabled": false,
+    "ip_geolocation": true
+  },
+  "network_mapping": {
+    "enabled": true,
+    "auto_discovery": true,
+    "save_topology": true
+  },
+  "visualization": {
+    "enabled": true,
+    "real_time": true,
+    "heatmap": true
+  },
+  "export": {
+    "formats": ["html", "json", "png"],
+    "auto_export": true
+  }
+} 

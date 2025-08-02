@@ -1,0 +1,21 @@
+{
+  "wpa2_handshake": {
+    "enabled": true,
+    "timeout": 60,
+    "retries": 3
+  },
+  "deauth_attack": {
+    "enabled": true,
+    "packet_count": 10,
+    "delay": 1
+  },
+  "evil_twin": {
+    "enabled": true,
+    "ssid_suffix": "_FREE_WIFI"
+  },
+  "brute_force": {
+    "enabled": true,
+    "wordlist": "data/wordlists/passwords.txt",
+    "threads": 4
+  }
+} 
